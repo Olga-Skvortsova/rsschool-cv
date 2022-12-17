@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>CV</title>
+    </head>
+    <body>  
+        <!-- Меню -->
+        <nav>
+            <div class="nav-container container">
+                <ul class="nav-container__list">
+                    <li> <a href="#Skvortcova"> Skvortcova Olga </a></li>
+                    <li> <a href="#About_me">About me</a></li>
+                    <li> <a href="#Education">Education</a></li>
+                    <li> <a href="#Skills">Skills</a></li>
+                    <li> <a href="#Code_example">Code example</a></li>
+                    <li> <a href="#Contacts">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- секция с заголовком -->
+        <header>
+            <div class="container header-section" id="Skvortcova">
+                <img class="header-section__my-photo" src="img/IMG_0753.JPG" alt="me">
+                <h1 class="header-section__header">Skvortcova Olga <br> Future front-end developer</h1>
+            </div>
+        </header>
+        <!-- основной контент -->
+        <main>
+            <!-- секция - обо мне -->
+            <div class="container about-me" id="About_me">
+                <!-- левая часть -->
+                <div class="about-me__left-wrapper">
+                    <h2>About me</h2>
+                </div>
+                <!-- правая часть -->
+                <div class="about-me__right-wrapper">
+                    <p>I started learning Frontend development quite recently, I have no commercial experience in this area and in the field of programming in general. That's why I came to study at RS-school to improve my development skills. I am ready to devote all my free time to this, because my career and future life depend on it.</p>
+                </div>
+            </div>
+            <!-- Обучение -->
+            <div class="container education" id="Education">
+                <!-- левая часть -->
+                <div class="education__left-wrapper">
+                    <h2>Education</h2>
+                </div>
+                <!-- правая часть -->
+                <div class="education__right-wrapper">
+                    <p>Financial University under the Government of the Russian Federation - International economic law (left after 1 course) <br> Courses: <br> 1. Web Development for beginners <br> 2. Figma for beginners</p>
+                </div>
+            </div>
+            <!-- Навыки -->
+            <div class="container skills" id="Skills">
+                <!-- левая часть -->
+                <div class="skills__left-wrapper">
+                    <h2>Skills</h2>
+                </div>
+                <!-- правая часть -->
+                <div class="skills__right-wrapper">
+                    <div class="right-wrapper__hard-skills box-with-skill">
+                        <p class="header-of-skills-list">Hard skills</p> 
+                        <ul class="ul-of-skills">
+                            <li>English - B1 (coming to B2)</li>
+                            <li>HTML</li>
+                            <li>Figma</li>
+                            <li>CSS (SASS)</li>
+                            <li>GIT</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="right-wrapper__soft-skills box-with-skill">
+                        <p  class="header-of-skills-list">Soft skills</p> 
+                        <ul class="ul-of-skills">
+                            <li>Easy to learn new things</li>
+                            <li>I interact well with people</li>
+                            <li>Commitment to study</li>
+                            <li>Ready to take responsibility</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Код -->
+            <div class="container code" id="Code_example">
+                <!-- левая часть -->
+                <div class="code__left-wrapper">
+                    <h2>Code example</h2>
+                </div>
+                <!-- правая часть -->
+                <div class="code__right-wrapper">
+                    <div class="html box-with-code">
+                        <pre><code> HTML <br><br>&lt;div class=&quot;container first-section__nav-container&quot;&gt;
+    &lt;nav class=&quot;first-section__nav nav-menu&quot;&gt;
+        &lt;ul class=&quot;nav-menu__list&quot;&gt;
+            &lt;li class=&quot;nav-menu__list__item&quot;&gt; &lt;a href=&quot;#about-me&quot;&gt; Обо мне&lt;/a&gt;&lt;/li&gt;
+            &lt;li class=&quot;nav-menu__list__item&quot;&gt; &lt;a href=&quot;#lessons&quot;&gt; Занятия&lt;/a&gt;&lt;/li&gt;
+            &lt;li class=&quot;nav-menu__list__item&quot;&gt; &lt;a href=&quot;#&quot;&gt; Запись&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+    &lt;/nav&gt;
+&lt;/div&gt;</code></pre>
+                    </div>
+                    <div class="css box-with-code">
+                        <pre><code>SASS <br><br>.nav-menu
+    &amp;__list
+        display: flex
+        flex-direction: row
+        &amp;__item
+            margin-right: 16px
+            font-size: 20px
+                &amp;:last-child
+                    margin-right: 0px</code></pre>
+                    </div>
+                    <div class="js box-with-code">
+                        <pre><code>Java Script <br><br>$(document).ready(function(){
+$(&quot;a[href*='#']&quot;).on(&quot;click&quot;, function(e){
+    var anchor = $(this);
+    $('html, body').stop().animate({
+    scrollTop: $(anchor.attr('href')).offset().top
+    }, 777);
+    e.preventDefault();
+    return false;
+});</code></pre>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Футер -->
+        <footer>
+            <div class="footer" id="Contacts">
+                <div class="footer__contacts">
+                    <ul class="ul-contacts">
+                        <li><img src="icons/free-icon-phone-call-3690777.png" alt="phone"> 8-991-115-75-66</li>
+                        <li><img src="icons/free-icon-envelope-481658.png" alt="email"> olya21062003@gmail.com</li>
+                        <li><a href="https://rs.school/js/"><img class="logors" src="icons/rs_school_js.svg" alt="logo-rs"></a></li>
+                    </ul>
+                </div>
+                <div class="footer__information-about-site">
+                    Created by Olga Skvortcova (Git - <a href="https://github.com/Poop-I">Poop-I</a>) <br> in 2022
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

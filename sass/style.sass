@@ -1,0 +1,180 @@
+@font-face 
+    font-family: "MonserratT"
+    src: url('../fonts/Montserrat-Regular.ttf')
+    font-weight: regular
+    font-style: normal
+@font-face 
+    font-family: "MonserratT"
+    src: url('../fonts/Montserrat-SemiBold.ttf')
+    font-weight: bold
+    font-style: normal
+html
+    font-family: "MonserratT"
+    font-weight: regular
+*
+    margin: 0
+    padding: 0
+$color-white: #FFFFFF
+$color-grey: #464747
+.container
+    max-width: 1440 px
+nav
+    position: fixed 
+    overflow: hidden
+    z-index: 5
+.nav-container
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 100vw
+    height: 50px
+    background-color: #ffffff6f
+    &__list
+        display: flex
+        li
+            display: inline
+            margin-right: 4em
+            font-size: 22px
+            &:last-child
+                margin-right: 0px
+            a
+                text-decoration: none
+                color: black
+.header-section
+    display: flex
+    align-items: center
+    height: 479 px
+    &__my-photo
+        height: auto
+        width: 33vw
+    &__header
+        font-size: 45px
+        margin-left: 112px
+main
+    .about-me
+        display: flex
+        &__left-wrapper
+            display: flex
+            align-items: center
+            width: 33vw
+            height: 280px
+            background: $color-white
+        &__right-wrapper
+            display: flex
+            align-items: center
+            width: 66vw
+            height: 280px
+            background: $color-grey
+            p
+                width: 60vw
+                margin-left: 30px
+                font-size: 26px
+                color: white
+    .education
+        display: flex
+        &__left-wrapper
+            display: flex
+            align-items: center
+            width: 33vw
+            height: 250px
+            background: $color-grey
+            h2
+                color: white
+        &__right-wrapper
+            display: flex
+            align-items: center
+            width: 66vw
+            height: 250px
+            background: $color-white
+            p
+                width: 60vw
+                margin-left: 30px
+                font-size: 26px               
+                color: black
+    .skills
+        display: flex
+        &__left-wrapper
+            display: flex
+            align-items: center
+            width: 33vw
+            height: 300px
+            background: $color-white
+        &__right-wrapper
+            display: flex
+            align-items: center
+            justify-content: space-around
+            width: 66vw
+            height: 300px
+            background: $color-grey     
+    .code
+        display: flex
+        &__left-wrapper
+            display: flex
+            align-items: center
+            width: 33vw
+            height: 600px
+            background: $color-grey
+            h2
+                color: white
+        &__right-wrapper
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+            align-items: center
+            width: 66vw
+            height: 600px
+            background: $color-white
+footer
+    overflow: hidden
+    .footer
+        display: flex
+        align-items: center
+        width: 100vw
+        height: 80px
+        &__contacts
+            display: flex
+            align-items: center            
+            width: 80vw
+            height: 75px
+            ul
+                display: flex
+                flex-direction: row
+                li
+                    display: flex
+                    align-items: center   
+                    margin-left: 10px                 
+                    list-style-type: none
+                    img
+                        margin-right: 5px
+        &__information-about-site
+            width: 50vw
+            height: 50px
+            font-size: 22px
+            a
+                color: black
+h2
+    position: absolute
+    margin-left: 80px
+    font-size: 40px
+.box-with-skill
+    width: 25vw
+    height: 250px
+.ul-of-skills
+    font-size: 26px
+    color: white
+.box-with-code
+    width: 60vw
+    height: 180px
+    background-color: $color-grey
+code
+    color: white
+.ul-contacts
+    font-size: 22px
+.logors
+    margin-left: 3em
+    height: 60px
+    width: 8vw
+.header-of-skills-list
+    font-size: 26px
+    color: white
+    font-weight: regular
