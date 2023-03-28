@@ -14,29 +14,25 @@ html {
   font-family: "MonserratT";
   font-weight: regular;
 }
-
 * {
   margin: 0;
   padding: 0;
 }
-
 .container {
   max-width: 1440 px;
 }
-
 nav {
   position: fixed;
   overflow: hidden;
   z-index: 5;
 }
-
 .nav-container {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100vw;
   height: 50px;
-  background-color: rgba(255, 255, 255, 0.4352941176);
+  background-color: rgba(255, 255, 255, 0.4352941175);
 }
 .nav-container__list {
   display: flex;
@@ -53,7 +49,6 @@ nav {
   text-decoration: none;
   color: black;
 }
-
 .header-section {
   display: flex;
   align-items: center;
@@ -67,7 +62,6 @@ nav {
   font-size: 45px;
   margin-left: 112px;
 }
-
 main .about-me {
   display: flex;
 }
@@ -157,7 +151,6 @@ main .code__right-wrapper {
   height: 600px;
   background: #FFFFFF;
 }
-
 footer {
   overflow: hidden;
 }
@@ -194,43 +187,35 @@ footer .footer__information-about-site {
 footer .footer__information-about-site a {
   color: black;
 }
-
 h2 {
   position: absolute;
   margin-left: 80px;
   font-size: 40px;
 }
-
 .box-with-skill {
   width: 25vw;
   height: 250px;
 }
-
 .ul-of-skills {
   font-size: 26px;
   color: white;
 }
-
 .box-with-code {
   width: 60vw;
   height: 180px;
   background-color: #464747;
 }
-
 code {
   color: white;
 }
-
 .ul-contacts {
   font-size: 22px;
 }
-
 .logors {
   margin-left: 3em;
   height: 60px;
   width: 8vw;
 }
-
 .header-of-skills-list {
   font-size: 26px;
   color: white;
