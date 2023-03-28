@@ -36,7 +36,7 @@ nav {
   align-items: center;
   width: 100vw;
   height: 50px;
-  background-color: rgba(255, 255, 255, 0.4352941176);
+  background-color: rgba(255, 255, 255, 0.4352941175);
 }
 .nav-container__list {
   display: flex;
